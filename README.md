@@ -1,0 +1,3 @@
+# Implicit Type Conversion Bug in SQL
+This repository demonstrates a common bug in SQL queries involving implicit type conversion.  The `bug.sql` file contains a query that uses a string comparison instead of a numeric comparison when checking department IDs. This can lead to unexpected results and inaccurate data retrieval.
+The solution, provided in `bugSolution.sql`, addresses this by explicitly casting the department ID to the correct data type before making the comparison. This ensures that the comparison behaves as intended and returns the accurate results.
